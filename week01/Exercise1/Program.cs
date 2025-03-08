@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        //This is prep 2
+        //Asking userd their name
         Console.WriteLine("Hello World! This is the Exercise1 Project.");
         Console.WriteLine("This is C#.");
 
