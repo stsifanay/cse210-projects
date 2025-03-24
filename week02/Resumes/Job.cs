@@ -7,6 +7,7 @@ public class Job
     private int _startYear;
     private int _endYear;
 
+// initialize the member variable
     public Job(string company, string jobTitle, int startYear, int endYear)
     {
         _company = company;
@@ -15,6 +16,7 @@ public class Job
         _endYear = endYear;
     }
 
+// display the job information
     public void Display()
     {
         Console.WriteLine($"{_jobTitle} ({_company}) {_startYear}-{_endYear}");

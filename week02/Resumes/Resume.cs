@@ -9,7 +9,8 @@ public class Resume
     public Resume(string name)
     {
         _name = name;
-        _jobs = new List<Job>(); // initialize the list in the constructor
+        // initialize the list in the constructor
+        _jobs = new List<Job>(); 
     }
 
     public void AddJob(Job job)
